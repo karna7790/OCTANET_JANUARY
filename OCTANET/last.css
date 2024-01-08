@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Shop</h1>
+        <p>Quality coffee for your delight</p>
+    </header>
+
+    <section>
+        <h2>Welcome to our Coffee Shop</h2>
+        <p>Explore our variety of coffee blends and find your perfect cup!</p>
+        <button onclick="location.href='#menu'">View Menu</button>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div>
+            <h3>Espresso</h3>
+            <p>Strong and concentrated coffee</p>
+        </div>
+        <div>
+            <h3>Cappuccino</h3>
+            <p>Equal parts espresso, steamed milk, and milk foam</p>
+        </div>
+        <div>
+            <h3>Latte</h3>
+            <p>Espresso with steamed milk and a small amount of foam</p>
+        </div>
+        <!-- Add more coffee options as needed -->
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <button onclick="location.href='mailto:info@coffeeshop.com'">Email Us</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
